@@ -1,0 +1,16 @@
+!/bin/bash
+cd /usr/share/RPIThemes
+cd YoutubeThemeConverter
+sudo chmod +x uninstall.sh
+./uninstall.sh
+cd /usr/share/RPIThemes
+cd MacOSBigSurThemeConverter
+sudo chmod +x uninstall.sh
+./uninstall.sh
+sudo apt install git
+cd /usr/share/RPIThemes
+        git clone https://github.com/Botspot/Windows-10
+		./usr/share/RPIThemes/Windows-10/install
+		sudo apt install curl
+		sudo apt install cmake
+		
